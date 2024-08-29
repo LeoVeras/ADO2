@@ -1,0 +1,13 @@
+.item {
+  list-style: none;
+  padding: 1%;
+  margin: 1% 0;
+  border-bottom: 1px dashed gray;
+  transition: 0.5s;
+}
+
+.item:hover {
+  cursor: pointer;
+  background-color: rgb(196, 196, 196);
+  transition: 0.5s;
+}

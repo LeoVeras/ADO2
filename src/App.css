@@ -1,0 +1,72 @@
+* {
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1%;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1%;
+  justify-content: space-between;
+}
+.inputContainer input {
+  width: auto;
+  padding: 2% 0;
+  margin: 0 5%;
+}
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 0 0 0;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    padding: 1%;
+    margin: auto;
+  }
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .inputContainer input {
+    width: 60%;
+    padding: 1%;
+    transition: 0.5s;
+  }
+  .inputContainer button {
+    height: 100%;
+    padding: 1%;
+    border: none;
+    transition: 0.5s;
+  }
+  .inputContainer button:hover {
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 10px;
+  }
+
+  .listContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0 0 0;
+    width: 100%;
+    font-size: 1.2em;
+  }
+}
